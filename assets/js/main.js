@@ -214,5 +214,11 @@
 
 		});
 
+		// faq
+		$(function() {
+			$( ".accordion" ).accordion();
+			$(".accordion").accordion({ header: "h3", collapsible: true, active: false ,heightStyle: "content" });
+		});
+
 
 })(jQuery);
