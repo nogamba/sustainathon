@@ -2213,7 +2213,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/windmill_header.jpeg"); /* fix header image */
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2294,7 +2294,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #111F3F;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2498,7 +2498,7 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 6em 0 6em 0;
 		/*background: #2b252c;*/
-		background: #5d4560;
+		background: #111F3F;
 		color: #fff;
 	}
 
